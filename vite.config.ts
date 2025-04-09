@@ -8,9 +8,9 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    port: 5173,
+    port: 3000,
+    host: true,
     strictPort: true, // Fail if port is already in use
-    host: true, // Listen on all network interfaces
     open: true, // Open browser on server start
   },
   build: {
